@@ -1,5 +1,14 @@
 /* index.html */
+* {
+  margin: 0px ;
+  padding: 0px;
+} 
 
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
 :root {
   --main-font: "Roboto", sans-serif;
   --second-font: "Raleway", sans-serif;
@@ -34,7 +43,6 @@ ul {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-
   padding-left: 15px;
   padding-right: 15px;
   align-items: center;
@@ -257,14 +265,14 @@ ul {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  
 }
-.our-team-item:not(:last-child) {
-  margin-right: 30px;
-}
+
 
 .our-team-position {
   padding-top: 30px;
   padding-bottom: 30px;
+  
 }
 
 .worker {
@@ -290,7 +298,6 @@ ul {
 }
 .studio-bottom {
   color: var(--studio-bottom-color);
-  
 }
 
 .footer-menu-nav {
@@ -324,12 +331,10 @@ ul {
   color: #2196f3;
 }
 
-/* portfolio.html */
+/* portfolio */
 
 .portfolio-projects-btn {
   display: flex;
-  
-  
 }
 .portfolio-btn {
   font-weight: 500;
@@ -341,18 +346,13 @@ ul {
   border: none;
   cursor: pointer;
   color: var(--brand-color);
-  
-  
-  
 }
 .portfolio-btn-list {
   display: inline-block;
   justify-content: center;
-  
-  padding-bottom: 50px;
-  
-}
 
+  padding-bottom: 50px;
+}
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
